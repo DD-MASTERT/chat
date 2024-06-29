@@ -7,7 +7,7 @@ from chat.utils import send_and_update
 OPTIONS = True  
 #是否开启无头模式，即不打开网页，或者 False打开网页
 
-TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxOTI5ODIxMiwianRpIjoiYTVmNDViOTAtN2E2ZS00ODVlLWIzMmMtZjRjOTM3YzBmMjBiIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiJjMjIzYmNiYTM4YTg0OThmYWJjMDNiZGRjYTQxYjE3ZiIsIm5iZiI6MTcxOTI5ODIxMiwiZXhwIjoxNzM0ODUwMjEyLCJ1aWQiOiI2NjE4NDJmODE2YzMyMzA5NzBmNDlmNDAiLCJ1cGxhdGZvcm0iOiJwYyIsInJvbGVzIjpbInVuYXV0aGVkX3VzZXIiXX0.nZqVo_4ZINeOYmO8IUwt2lVfxjop0-4JSzYTYrv0pdg'
+TOKEN = ''
 
 #这个是你自己本地谷歌浏览器保存的token，是长期的。过期需要重新登录获得。
 
