@@ -70,10 +70,13 @@ test(driver)
 获取token方式获取如下：
 - 下载好谷歌浏览器后打开智谱清言https://chatglm.cn
 - 然后登录账号
-- 右键点击检查或者按F12打开开发者工具
-- 点开上方的“应用”然后左侧边栏的“存储”菜单下点开“Cookie”
-- 然后在右边找到chatglm_refresh_token的值填入代码中即可，过期后需重新获取
-- 
+- 右键点击检查或者按F12打开开发者工具：<br>
+  <img src="img/1.png" alt="替代文本" title="可选的标题">
+- 点开上方的“应用”然后左侧边栏的“存储”菜单下点开“Cookie”:<br>
+  <img src="img/2.png" alt="替代文本" title="可选的标题">
+- 然后在右边找到chatglm_refresh_token的值填入代码中即可，过期后需重新获取<br>:<br>
+  <img src="img/3.png" alt="替代文本" title="可选的标题">
+
 kimi网站 https://kimi.moonshot.cn kimi模型函数调用示例见test2.py：
 ```bash
 from chat.kimi import kimisend_and_update
